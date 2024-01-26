@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sqtest7"
+  description: "asdasddsa"
+  annotations:
+    github.com/project-slug: efidemos/sqtest7
+    sonarqube.org/project-key: sqtest7
+spec:
+  type: sq-repository
+  lifecycle: experimental
+  owner: "group:default/cncf"
