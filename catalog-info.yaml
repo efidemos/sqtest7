@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: efidemos/sqtest7
     sonarqube.org/project-key: sqtest7
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: sq-repository
   lifecycle: experimental
