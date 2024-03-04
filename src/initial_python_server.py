@@ -9,3 +9,4 @@ class InitialHandler(http.server.SimpleHTTPRequestHandler):
         self.wfile.write(b'Initial http service for sqtest7')
 
 socketserver.TCPServer(('', 9000), InitialHandler).serve_forever()
+
