@@ -8,6 +8,7 @@ metadata:
     sonarqube.org/project-key: sqtest7
     backstage.io/techdocs-ref: dir:.
     jenkins.io/job-full-name: testi
+    jenkins.io/job-full-name: pipelineTest
 spec:
   type: sq-repository
   lifecycle: experimental
